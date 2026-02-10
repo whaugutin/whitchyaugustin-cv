@@ -10,13 +10,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Whitchy AUGUSTIN - CV',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: Scaffold(
         appBar: AppBar(
           title: Text('Whitchy AUGUSTIN - CV'),
+          backgroundColor: Colors.blueAccent,
         ),
         body: Center(
           child: Text('Welcome to Whitchy AUGUSTIN\'s CV!', 
